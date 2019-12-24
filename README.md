@@ -64,6 +64,22 @@ echo "1.2.4"
 }
 
 echo "The version of the software is $(function_get_version)"
+```
+# 5 STDOUT VS STDERR
+
+*default streams are standard output(default) and error out put*
+```shell
+echo "My logs" 1>&2 
+```
+*above command will redirect the std output to std error stream
+```shell
+echo "My logs" 2>&1 
+```
+to mute the stderr 
+```shell
+2>/dev/null 
+```
+
 
 
 
