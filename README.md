@@ -24,7 +24,7 @@ sh test.sh && git push
 echo $?
 ```
 
-# Bash file 
+# 3 Bash file 
 
 ```shell
 
@@ -33,7 +33,7 @@ vi test.sh
 ```shell
 #!/bin/bash
 
-# -e is for exit on error 
+# -e is for exit on error  +e is for continue even if error is there
 set -e 
 
 function_run_junit_test(){
