@@ -44,6 +44,7 @@ function_run_integration_test
 function_run_e2e_test
 ```
 ```shell
+chmod +x test.sh
 sh test.sh
 ```
 bash-basics
