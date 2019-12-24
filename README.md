@@ -5,6 +5,8 @@
 echo "Hello Wolrd"
 echo $?
 ```
+###### 0 return is sucessful any other number means the previous command didn't execute properly 
+
 # 2  Join Two command || -or , && and
 
 ```shell
@@ -30,18 +32,26 @@ vi test.sh
 ```
 ```shell
 #!/bin/bash
+
+# -e is for exit on error 
+set -e 
+
 function_run_junit_test(){
 return 0;
 }
+
 function_run_integration_test(){
 return 0;
 }
+
 function_run_e2e_test(){
 return 0;
 }
+
 function_run_junit_test
 function_run_integration_test
 function_run_e2e_test
+
 ```
 ```shell
 chmod +x test.sh
