@@ -97,5 +97,7 @@ cat test.txt | head -c 10
 ```shell
 cat test.txt | wc
 ```
+#7 grep command
+
 
 bash-basics
