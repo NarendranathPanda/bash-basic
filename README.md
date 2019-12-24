@@ -5,7 +5,7 @@
 echo "Hello Wolrd"
 echo $?
 ```
-###### 0 return is sucessful any other number means the previous command didn't execute properly 
+*Return code 0 means sucessful any other number means the previous command didn't execute properly* 
 
 # 2  Join Two command || -or , && and
 
