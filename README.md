@@ -57,4 +57,16 @@ function_run_e2e_test
 chmod +x test.sh
 sh test.sh
 ```
+# 4 Get Stream output  $(---)
+```shell
+function_get_version(){
+echo "1.2.4"
+}
+
+echo "The version of the software is $(function_get_version)"
+
+
+
+
+
 bash-basics
