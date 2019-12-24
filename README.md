@@ -77,6 +77,25 @@ echo "My logs" 1>&2
 ```shell
 2>/dev/null 
 ```
+# 6 Use of Pipe
 
+*To get first 10 line of a file*
+```shell
+cat test.txt | head -n 10
+```
+*To get last 10 line of a file*
+```shell
+cat test.txt | tail -n 10
+```
+
+*To get first 10 char of a file*
+```shell
+cat test.txt | head -c 10
+```
+
+*To get word count of a file*
+```shell
+cat test.txt | wc
+```
 
 bash-basics
